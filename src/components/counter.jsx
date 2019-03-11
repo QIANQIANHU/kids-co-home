@@ -3,7 +3,7 @@ import { link } from "fs";
 
 class Counter extends Component {
   state = {
-    count: 0,
+    count: this.props.value,
     imageUrl: "https://picsum.photos/200",
     tags: ["tag1", "tag2", "tag3"]
   };
@@ -18,29 +18,34 @@ class Counter extends Component {
     fontWeight: "bold"
   };
 
-  constructor() {
-    super();
-    // to get access to parents
-    this.handleIncrement = this.handleIncrement.bind(this);
-    //set the value of this in bind method, will return a new instance of the handleIncrement function, now in the handleIncrement function, this is always refering currenct object.
-    //this.handleIncrement.bind(this);now doesn't mmatter how function is called(with object or not), refering current object
-    //now reset the handleIncrement function like this.handleIncrement = this.handleIncrement.bind(this);
-    //another way to solve this is to write arrow function
-  }
-  handleIncrement() {
-    console.log("increment Clicked", this);
-    //we don't have access to this(the state property),define how function is called in JavaScript, the behavior here is different from other languages
-    //this can refer to different objects
-    //obj.method();
-    //function();without an object return undefined
-    //use bind() method to solve this problem,or
-    //arrow function
-    // handleIncrement = () => {
-    //   console.log("increment Clicked", this);
-    // };
-  }
+  //constructor() {
+  //super();
+  // to get access to parents
+  // this.handleIncrement = this.handleIncrement.bind(this);
+  //set the value of this in bind method, will return a new instance of the handleIncrement function, now in the handleIncrement function, this is always refering currenct object.
+  //this.handleIncrement.bind(this);now doesn't mmatter how function is called(with object or not), refering current object
+  //now reset the handleIncrement function like this.handleIncrement = this.handleIncrement.bind(this);
+  //another way to solve this is to write arrow function
+  //}
+  //handleIncrement() {
+  // console.log("increment Clicked", this);
+  //we don't have access to this(the state property),define how function is called in JavaScript, the behavior here is different from other languages
+  //this can refer to different objects
+  //obj.method();
+  //function();without an object return undefined
+  //use bind() method to solve this problem,or
+  //arrow function
+  // handleIncrement = () => {
+  //   console.log("increment Clicked", this);
+  // };
+  //}
+  handleIncrement = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
+  //unlike in Angular, the ++ update is not automatically detective, we use setState method to tell React what to change, in() we pass the count property, merged, will overwrite the prpoperty if its already exsited.
 
   render() {
+    console.log("props", this.props);
     return (
       <div>
         <img src={this.state.imageUrl} alt="photo" />
