@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { link } from "fs";
 
 class Counter extends Component {
-  state = {
-    count: this.props.value,
-    imageUrl: "https://picsum.photos/200",
-    tags: ["tag1", "tag2", "tag3"]
-  };
+  //for single truth reason,we delete the children component state
+  //   state = {
+  //     value: this.props.counter.value,
+  //     imageUrl: "https://picsum.photos/60",
+  //     tags: ["tag1", "tag2", "tag3"]
+  //   };
   //in state object we add one more property tags,in this array we will dynamically rerendering each string in an unordered list
   //not as Angular which is a templating engine,  React is just a simple ayntax, get JavaScript code compelied into React element
   //<span></span> is a React element, JSX doesn't have the concept of Loops,
@@ -39,32 +39,40 @@ class Counter extends Component {
   //   console.log("increment Clicked", this);
   // };
   //}
-  handleIncrement = () => {
-    this.setState({ count: this.state.count + 1 });
-  };
+  //   handleIncrement = () => {
+  //     this.setState({ value: this.state.value + 1 });
+  //   };
   //unlike in Angular, the ++ update is not automatically detective, we use setState method to tell React what to change, in() we pass the count property, merged, will overwrite the prpoperty if its already exsited.
 
   render() {
-    console.log("props", this.props);
+    // console.log("props", this.props);
     return (
       <div>
-        <img src={this.state.imageUrl} alt="photo" />
+        {/* {this.props.children} */}
+        {/* <h4>{this.props.counter.id}</h4>
+        <img src={this.state.imageUrl} alt="photo" /> */}
         <span style={this.styles} className={this.getBadgeClasses()}>
           {this.formatCount()}
         </span>
         <button
-          onClick={this.handleIncrement}
+          onClick={() => this.props.onIncrement(this.props.counter)}
           className="btn btn-secondary btn-sm"
         >
           Increment
         </button>
         {/* eventHandling onClick is like an attribute of react elements, is
-        upcase sensetive */}
-        <ul>
+        upcase sensitive */}
+        <button
+          onClick={() => this.props.onDelete(this.props.counter.id)}
+          className="btn btn-danger btn-sm m-2"
+        >
+          Delete
+        </button>
+        {/* <ul>
           {this.state.tags.map(tag => (
             <li key={tag}>{tag}</li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     );
   }
@@ -90,14 +98,14 @@ class Counter extends Component {
   //   }
   getBadgeClasses() {
     let classes = "badge m-2 badge-";
-    classes += this.state.count === 0 ? "warning" : "primary";
+    classes += this.props.counter.value === 0 ? "warning" : "primary";
     return classes;
   }
 
   formatCount() {
-    const { count } = this.state;
+    const { value } = this.props.counter;
     const qualityOfProduct = <h1>Zero</h1>;
-    return count === 0 ? qualityOfProduct : count;
+    return value === 0 ? qualityOfProduct : value;
   }
 }
 
