@@ -104,7 +104,7 @@ class Counter extends Component {
 
   formatCount() {
     const { value } = this.props.counter;
-    const qualityOfProduct = <h1>Zero</h1>;
+    const qualityOfProduct = <h6>Zero</h6>;
     return value === 0 ? qualityOfProduct : value;
   }
 }
