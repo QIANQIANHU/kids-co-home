@@ -24,7 +24,9 @@ provide your time windows for your friends, 相对封闭的圈子 rotate
 
 ## Setup/Installation Requirements
 
-### Install editor Visual Studio
+### Install code editor Visual Studio
+
+### Install nobe.js
 
 ### Set up enviroment in terminal
 
@@ -32,17 +34,19 @@ provide your time windows for your friends, 相对封闭的圈子 rotate
 
 #### install extensions;
 
-Ayu,Prettier,Simple React Snippers
+Ayu Mirage,Prettier(formating code),Simple React Snippets(shortcut)
 
 ### Create A react project with
 
 #### `create-react-app ropo-name`
 
-This package includes Development server, Webpack and Babel
+This package includes Development server, Webpack and Babel; is a zero-config setup
 
 #### `npm start`
 
-View project with Browsers
+lauch in the browser `localhost:3000` hot module reloading
+
+#### `npm run eject`
 
 #### build components folder in src
 

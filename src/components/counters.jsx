@@ -15,11 +15,7 @@ class Counters extends Component {
             onDelete={onDelete}
             onIncrement={onIncrement}
             counter={counter}
-            //value={counter.value}
-            //id={counter.id}
-          >
-            {/* <h4>Counter # {counter.id}</h4> */}
-          </Counter>
+          />
         ))}
       </div>
     );
