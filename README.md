@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Kids Playdate
+
+#### This is a Mobile app is to provide parents another solusion out of current consistant daycare and traditional playdate(revise later\*)
+
+### Inspiration(\*)
 
 ## Available Scripts
 
