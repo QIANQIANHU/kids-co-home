@@ -42,14 +42,18 @@ Who is our user, Metrics of user persons
 -parents has a trust friends cycle/playdates family
 -learning party
 
-#### risks and opputunies
+business model demostation
+
+#### Possible risks and opputunies
 
 -safty
 
 #### solusions
 
--camera(two options, need AB testing)
+-camera(two options need AB testing)
 -matrics to show
+A,https://www.wyze.com/shop/
+B,mobile mutiple angles service
 
 #### interviews and questionaire on parents willings:
 
@@ -57,19 +61,50 @@ develop a clear picture of what the business goals and user needs for the produc
 
 #### UX flow
 
-#### features
-
 #### Use cases
 
--One can CDURL(Create,Delete,Update,Read,List) events
--One can CDUR babie's profile
--One event can be display on friends' families newsFeed
--One can occupied positions for the kid
--One can allowed host to read babie's profile -
+-One can register by facebook/google/personal email to became app's member;
+-One can login with the registered account;
+-One can edit(CRUD) a personal profile;
+-One can edit(CRUD) all babies' profiles;
+-One can invite other family member with invantion code by email;
+-One can accept invantion code to register as apps user;
+-One can form an inner trust circle by sending code and codes are accepted and registered by selected list of sending code;
+-One can CRUDL(Create,Read,Update,Delete,List) events(time/date/notes);
+-One can note with different tags(learning party/with food/other requirements);
+-One can select host requirements and share necessary source;
+-events can be displaied on friends' families timeline;
+-one can view the coming events from the trusted family circle;
+-One can occupied/delete positions with kids' name;
+-One can allowed host to read babie's profile;
+-One can generate togo list based on babie's profile
+-One can get notification/reminder before events happen;
+-One can have a to go list for kid before events;
+-One can receive notification to set up cameras;
+-One can receive the instruction of camera setting;
+-One can access the camera with access allowed by host;
+-One can upload pictures and videos of the events;
+-One can save pictures and videos;
+-One can get suggestions of what to play/how to deal with 20minutes crying of 2 years old from smart home system;
+-One can place order directly of necessary shopping list for coming events;
+-One can generate list of all stuff occurs in the event;
+-One can place order directly of kids interested toys/needs;
+-Host can edit babie's profile-hobbies or growth story catergories for the new findings in the event by parents' access permission;
+-One can highlight kids preformace make steams(optional);
+-One can receive reminder when events would be finished;
+-One can sync the traffic when drop off kids;
+-One can views the histories of past events;
+-One can CRUD a urgent needs to ask avaiable position;
+-One can accept the urgent needs;
+-One can store videos of events for extra use with paid plan(optional);
 
-#### Plannings
+#### Plannings/tracking progress standards
+
+Prioritize features base on user satisfations and deployment cost;
 
 #### Technology used
 
 - React Native
 - Sketch
+
+#### Lisence
