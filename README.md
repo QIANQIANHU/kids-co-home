@@ -1,72 +1,75 @@
-#Kids Playdate
+#Kids Home-based time-sharing parent playdate mobile app(in editing)
 
-#### This is a Mobile app is to provide parents another solusion out of current consistant daycare and traditional playdate(revise later\*)
+#### 2019/04/03 by Ainur and Qianqian
 
-### Inspiration(\*)
+#### This Mobile app is to provide parents another solusion out of current consistant daycare, traditional playdates or temprorary nanny options. Parents would open playdate events to share home and time on parent kids within trusted friends families. The guests families' parents can leave their kids by dropping off their kids by following the playdates notifications/clarifications. This rotated circle will (in editing)
 
-## Available Scripts
+#### Pains & Inspirations
 
-In the project directory, you can run:
+Temprorary needs/Trust issue/process would fail
+Situation and constraints:
+-parents has temprorary meetups/urgent;
+-parents has trust problem with temprorary baby sitters;
+-kid has risk of some warmup time to temprorary stranger baby sitters
 
-### `npm start`
+#### SWOT analysis of Current solusions(in editing)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Current solusions
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+-nanny at home
+-friends home
+-make playdate by social network
+-Temprorary nanny app
 
-### `npm test`
+#### downsides of exsited solutions
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-cost, risk of unavaliable
+-embarrassed stick-to-it with one family/communication cost for multiple families
+-communication cost/lost info for taking care kids/not specific/parents have to be there in case of trust issue, still not release/design is not specific for urgent taking care of babies,parent needs more to take care of babies/hard to check with social network for this urgent reason
+-trust/kids need warm up time and sometimes is not working smooth
 
-### `npm run build`
+#### Business analysis
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A picture of what the business goals and user needs for the product are:
+Who is our user, Metrics of user persons
+(persona/demographics/behaviors/needs)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+-parents of kids
+-parents has temprorary meetups/urgent
+-parents has trust problem with temprorary baby sitters
+-kid has risk of some warmup time to temprorary stranger baby sitters
+-parents/baby sitter has trouble with no inspiration or solutions
+-parents has a trust friends cycle/playdates family
+-learning party
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### risks and opputunies
 
-### `npm run eject`
+-safty
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### solusions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-camera(two options, need AB testing)
+-matrics to show
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### interviews and questionaire on parents willings:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+develop a clear picture of what the business goals and user needs for the product are.
 
-## Learn More
+#### UX flow
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Use cases
 
-### Code Splitting
+-One can CDURL(Create,Delete,Update,Read,List) events
+-One can CDUR babie's profile
+-One event can be display on friends' families newsFeed
+-One can occupied positions for the kid
+-One can allowed host to read babie's profile -
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#### Plannings
 
-### Analyzing the Bundle Size
+#### Technology used
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- React Native
+- Sketch
