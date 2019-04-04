@@ -24,7 +24,7 @@ Situation and constraints:
 A picture of what the business goals and user needs for the product are:
 Who is our user,(mapping later)
 Metrics of user persons
-| persona | persona |
+| persona | behaviors |
 | ----------- | ----------- |
 | demographics | needs |
 
@@ -38,14 +38,12 @@ Metrics of user persons
 
 `Analysis of Current solusions(in editing)`
 
-| Current solutions | Downsides |
-| ----------------- | --------- |
-
-
-| - nanny at home | - cost, risk of unavaliable |
-| - friends home | - embarrassed stick-to-it with one family/communication cost for multiple families |
-| - make playdate by social network | - communication cost/lost info for taking care kids/not specific/parents have to be there in case of trust issue, still not release/design is not specific for urgent taking care of babies,parent needs more to take care of babies/hard to check with social network for this urgent reason |
-| - Temprorary nanny app | - trust/kids need warm up time and sometimes is not working smooth |
+| Current solutions               | Downsides                                                                                                                                                                                                                                                                                   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| nanny at home                   | cost, risk of unavaliable                                                                                                                                                                                                                                                                   |
+| friends home                    | embarrassed sticktoit with one family/communication cost for multiple families                                                                                                                                                                                                              |
+| make playdate by social network | communication cost/lost info for taking care kids/not specific/parents have to be there in case of trust issue, still not release/design is not specific for urgent taking care of babies,parent needs more to take care of babies/hard to check with social network for this urgent reason |
+| Temprorary nanny app            | trust/kids need warm up time and sometimes is not working smooth                                                                                                                                                                                                                            |
 
 `business model demostation`
 
