@@ -5,7 +5,12 @@
 ## Description
 
 ```
-This Mobile app is to provide parents another solusion out of current consistant daycare, traditional playdates or temprorary nanny options. Parents would open playdate events to share home and time on parent kids within trusted friends families. The guests families' parents can leave their kids by dropping off their kids by following the playdates notifications/clarifications. This rotated circle will (in editing)
+This Mobile app is to provide parents another solusion out of current consistant daycare,
+traditional playdates or temprorary nanny options. Parents would open playdate events to
+share home and time on parent kids within trusted friends families. The guests families'
+parents can leave their kids by dropping off their kids by following the playdates
+notifications/clarifications. This rotated circle will (in editing)
+
 ```
 
 ## Pains & Inspirations
@@ -23,9 +28,8 @@ Situation and constraints:
 
 A picture of what the business goals and user needs for the product are:
 Who is our user,(mapping later)
-Metrics of user persons
+Metrics of user persons(in editing)
 | persona | behaviors |
-| ----------- | ----------- |
 | demographics | needs |
 
 - parents of kids
@@ -45,9 +49,9 @@ Metrics of user persons
 | make playdate by social network | communication cost/lost info for taking care kids/not specific/parents have to be there in case of trust issue, still not release/design is not specific for urgent taking care of babies,parent needs more to take care of babies/hard to check with social network for this urgent reason |
 | Temprorary nanny app            | trust/kids need warm up time and sometimes is not working smooth                                                                                                                                                                                                                            |
 
-`business model demostation`
+`business model demostation(in editing)`
 
-`Possible risks and opputunies`
+`Possible risks and opputunies(in editing)`
 
 - safty
 
@@ -58,9 +62,7 @@ Metrics of user persons
   A,https://www.wyze.com/shop/
   B,mobile mutiple angles service
 
-`interviews and questionaire on parents willings:`
-
-develop a clear picture of what the business goals and user needs for the product are.
+`interviews and questionaire on parents willings(in editing)`
 
 ## Use cases
 
@@ -99,11 +101,11 @@ develop a clear picture of what the business goals and user needs for the produc
 - One can accept the urgent needs;
 - One can store videos of events for extra use with paid plan(optional);
 
-## Plannings/tracking progress standards
+## Plannings/tracking progress standards(in editing)
 
 Prioritize features base on user satisfations and deployment cost;
 
-## UX flow
+## UX flow(in editing)
 
 #### Technology used
 
